@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from django.conf import settings
+from django.conf import settings    # 중요: AUTH_USER_MODEL 접근을 위해
 
 # Create your models here.
 class Post(models.Model):
